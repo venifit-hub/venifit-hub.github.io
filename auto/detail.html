@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>RealAuto</title>
+
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+		<link href="css/master.css" rel="stylesheet">
+
+		<!-- SWITCHER -->
+
+		<!--[if lt IE 9]>
+		<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body class="m-detail" data-scrolling-animations="true" data-equal-height=".b-auto__main-item">
+
+		<!-- Loader -->
+		<div id="page-preloader"><span class="spinner"></span></div>
+		<!-- Loader end -->
+		<!-- Start Switcher -->
+		
+		<!-- End Switcher -->
+		<section class="b-modal">
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" id="myModalLabel">Video</h4>
+						</div>
+						<div class="modal-body">
+							<iframe width="560" height="315" src="https://www.youtube.com/watch?v=7iGFH5HbWGM" allowfullscreen></iframe>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<header class="b-topBar wow slideInDown" data-wow-delay="0.7s">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-xs-6">
+							<div class="b-topBar__addr">
+								<span class="fa fa-map-marker"></span>
+								Ак павлова 9, Миасс, Челяб область
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<div class="b-topBar__tel">
+								<span class="fa fa-phone"></span>
+								8 951 803-36-34
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-6">
+							<nav class="b-topBar__nav">
+								<ul>
+									<li><a href="#">Корзина</a></li>
+									<li><a href="#">Регистр</a></li>
+									<li><a href="#">Войти</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<div class="b-topBar__lang">
+								<div class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle='dropdown'>Язык</a>
+									<a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span class="b-topBar__lang-flag m-en"></span>RU<span class="fa fa-caret-down"></span></a>
+									<ul class="dropdown-menu h-lang">
+										<li><a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span class="b-topBar__lang-flag m-en"></span>EN</a></li>
+										<li><a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span class="b-topBar__lang-flag m-es"></span>ES</a></li>
+										<li><a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span class="b-topBar__lang-flag m-de"></span>DE</a></li>
+										<li><a class="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span class="b-topBar__lang-flag m-fr"></span>FR</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header><!--b-topBar-->
+
+			<nav class="b-nav">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3 col-xs-4">
+							<div class="b-nav__logo wow slideInLeft" data-wow-delay="0.3s">
+								<h3><a href="home.html">REAL<span>AUTO</span></a></h3>
+								<h2><a href="home.html">AUTO DEALER TEMPLATE</a></h2>
+							</div>
+						</div>
+						<div class="col-sm-9 col-xs-8">
+							<div class="b-nav__list wow slideInRight" data-wow-delay="0.3s">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<div class="collapse navbar-collapse navbar-main-slide" id="nav">
+									<ul class="navbar-nav-menu">
+										<li class="dropdown">
+											<a class="dropdown-toggle" data-toggle='dropdown' href="home.html">Home <span class="fa fa-caret-down"></span></a>
+											<ul class="dropdown-menu h-nav">
+												<li><a href="home.html">Главная</a></li>
+											</ul>
+										</li>
+										<li class="dropdown">
+											<a class="dropdown-toggle" data-toggle='dropdown' href="#">Grid <span class="fa fa-caret-down"></span></a>
+											<ul class="dropdown-menu h-nav">
+												<li><a href="#">список</a></li>
+											</ul>
+										</li>
+										<li><a href="#">compare</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Services</a></li>
+										<li class="dropdown">
+											<a class="dropdown-toggle" data-toggle='dropdown' href="#">Blog <span class="fa fa-caret-down"></span></a>
+											<ul class="dropdown-menu h-nav">
+												<li><a href="#">Новости</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Shop</a></li>
+										<li><a href="#">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav><!--b-nav-->
+
+		<section class="b-pageHeader">
+			<div class="container">
+				<h1 class="wow zoomInLeft" data-wow-delay="0.5s">Страница машины</h1>
+			</div>
+		</section><!--b-pageHeader-->
+
+		<div class="b-breadCumbs s-shadow wow zoomInUp" data-wow-delay="0.5s">
+			<div class="container">
+				<a href="home.html" class="b-breadCumbs__page">Home</a><span class="fa fa-angle-right"></span><a href="listings.html" class="b-breadCumbs__page">Luxury Cars</a><span class="fa fa-angle-right"></span><a href="listingsTwo.html" class="b-breadCumbs__page">Mercedes</a><span class="fa fa-angle-right"></span><a href="detail.html" class="b-breadCumbs__page m-active">Mercedes G63</a>
+			</div>
+		</div><!--b-breadCumbs-->
+
+		<div class="b-infoBar">
+			<div class="container">
+				<div class="row wow zoomInUp" data-wow-delay="0.5s">
+					<div class="col-xs-3">
+						<div class="b-infoBar__premium">Премиальная версия</div>
+					</div>
+					<div class="col-xs-9">
+						<div class="b-infoBar__btns">
+							<a href="#" class="btn m-btn m-infoBtn">SHARE THIS VEHICLE<span class="fa fa-angle-right"></span></a>
+							<a href="#" class="btn m-btn m-infoBtn">ADD TO FAVOURITES<span class="fa fa-angle-right"></span></a>
+							<a href="#" class="btn m-btn m-infoBtn">PRINT THIS PAGE<span class="fa fa-angle-right"></span></a>
+							<a href="#" class="btn m-btn m-infoBtn">DOWNLOAD MANUAL<span class="fa fa-angle-right"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--b-infoBar-->
+
+		<section class="b-detail s-shadow">
+			<div class="container">
+				<header class="b-detail__head s-lineDownLeft wow zoomInUp" data-wow-delay="0.5s">
+					<div class="row">
+						<div class="col-sm-9 col-xs-12">
+							<div class="b-detail__head-title">
+								<h1>Mercedes-AMG G63 SUV</h1>
+								<h3>13.1л/100км</h3>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12">
+							<div class="b-detail__head-price">
+								<div class="b-detail__head-price-num">14 346 000₽</div>
+								<p>Included Taxes &amp; Checkup</p>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="b-detail__main">
+					<div class="row">
+						<div class="col-md-8 col-xs-12">
+							<div class="b-detail__main-info">
+								<div class="b-detail__main-info-images wow zoomInUp" data-wow-delay="0.5s">
+									<div class="row m-smallPadding">
+										<div class="col-xs-10">
+											<ul class="b-detail__main-info-images-big bxslider enable-bx-slider" data-pager-custom="#bx-pager" data-mode="horizontal" data-pager-slide="true" data-mode-pager="vertical" data-pager-qty="5">
+												<li class="s-relative">
+													<a data-toggle="modal" data-target="#myModal" href="#" class="b-items__cars-one-img-video"><span class="fa fa-film"></span>VIDEO</a>
+													<img class="img-responsive center-block" src="media/620x485/big1.jpg" alt="nissan" />
+												</li>
+												<li class="s-relative">
+													<a data-toggle="modal" data-target="#myModal" href="#" class="b-items__cars-one-img-video"><span class="fa fa-film"></span>VIDEO</a>
+													<img class="img-responsive center-block" src="media/620x485/big2.jpg" alt="nissan" />
+												</li>
+												<li class="s-relative">
+													<a data-toggle="modal" data-target="#myModal" href="#" class="b-items__cars-one-img-video"><span class="fa fa-film"></span>VIDEO</a>
+													<img class="img-responsive center-block" src="media/620x485/big3.jpg" alt="nissan" />
+												</li>
+												<li class="s-relative">
+													<a data-toggle="modal" data-target="#myModal" href="#" class="b-items__cars-one-img-video"><span class="fa fa-film"></span>VIDEO</a>
+													<img class="img-responsive center-block" src="media/620x485/big4.jpg" alt="nissan" />
+												</li>
+												<li class="s-relative">
+													<a data-toggle="modal" data-target="#myModal" href="#" class="b-items__cars-one-img-video"><span class="fa fa-film"></span>VIDEO</a>
+													<img class="img-responsive center-block" src="media/620x485/big5.jpg" alt="nissan" />
+												</li>
+												<li class="s-relative">
+													<a data-toggle="modal" data-target="#myModal" href="#" class="b-items__cars-one-img-video"><span class="fa fa-film"></span>VIDEO</a>
+													<img class="img-responsive center-block" src="media/620x485/big1.jpg" alt="nissan" />
+												</li>
+												<li class="s-relative">
+													<a data-toggle="modal" data-target="#myModal" href="#" class="b-items__cars-one-img-video"><span class="fa fa-film"></span>VIDEO</a>
+													<img class="img-responsive center-block" src="media/620x485/big2.jpg" alt="nissan" />
+												</li>
+												<li class="s-relative">
+													<a data-toggle="modal" data-target="#myModal" href="#" class="b-items__cars-one-img-video"><span class="fa fa-film"></span>VIDEO</a>
+													<img class="img-responsive center-block" src="media/620x485/big3.jpg" alt="nissan" />
+												</li>
+
+											</ul>
+										</div>
+										<div class="col-xs-2 pagerSlider pagerVertical">
+											<div class="b-detail__main-info-images-small" id="bx-pager">
+												<a href="#" data-slide-index="0" class="b-detail__main-info-images-small-one">
+													<img class="img-responsive" src="media/115x85/small1.jpg" alt="nissan" />
+												</a>
+												<a href="#" data-slide-index="1" class="b-detail__main-info-images-small-one">
+													<img class="img-responsive" src="media/115x85/small2.jpg" alt="nissan" />
+												</a>
+												<a href="#" data-slide-index="2" class="b-detail__main-info-images-small-one">
+													<img class="img-responsive" src="media/115x85/small3.jpg" alt="nissan" />
+												</a>
+												<a href="#" data-slide-index="3" class="b-detail__main-info-images-small-one">
+													<img class="img-responsive" src="media/115x85/small4.jpg" alt="nissan" />
+												</a>
+												<a href="#" data-slide-index="4" class="b-detail__main-info-images-small-one">
+													<img class="img-responsive" src="media/115x85/small5.jpg" alt="nissan" />
+												</a>
+												<a href="#" data-slide-index="5" class="b-detail__main-info-images-small-one">
+													<img class="img-responsive" src="media/115x85/small1.jpg" alt="nissan" />
+												</a>
+												<a href="#" data-slide-index="6" class="b-detail__main-info-images-small-one">
+													<img class="img-responsive" src="media/115x85/small2.jpg" alt="nissan" />
+												</a>
+												<a href="#" data-slide-index="7" class="b-detail__main-info-images-small-one">
+													<img class="img-responsive" src="media/115x85/small3.jpg" alt="nissan" />
+												</a>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="b-detail__main-info-characteristics wow zoomInUp" data-wow-delay="0.5s">
+									<div class="b-detail__main-info-characteristics-one">
+										<div class="b-detail__main-info-characteristics-one-top">
+											<div><span class="fa fa-car"></span></div>
+											<p>Brand New</p>
+										</div>
+										<div class="b-detail__main-info-characteristics-one-bottom">
+											Status
+										</div>
+									</div>
+									<div class="b-detail__main-info-characteristics-one">
+										<div class="b-detail__main-info-characteristics-one-top">
+											<div><span class="fa fa-trophy"></span></div>
+											<p>5,000KM</p>
+										</div>
+										<div class="b-detail__main-info-characteristics-one-bottom">
+											Warrenty
+										</div>
+									</div>
+									<div class="b-detail__main-info-characteristics-one">
+										<div class="b-detail__main-info-characteristics-one-top">
+											<div><span class="fa fa-at"></span></div>
+											<p>Auto</p>
+										</div>
+										<div class="b-detail__main-info-characteristics-one-bottom">
+											Transmission
+										</div>
+									</div>
+									<div class="b-detail__main-info-characteristics-one">
+										<div class="b-detail__main-info-characteristics-one-top">
+											<div><span class="fa fa-car"></span></div>
+											<p>FWD</p>
+										</div>
+										<div class="b-detail__main-info-characteristics-one-bottom">
+											Drivetrain
+										</div>
+									</div>
+									<div class="b-detail__main-info-characteristics-one">
+										<div class="b-detail__main-info-characteristics-one-top">
+											<div><span class="fa fa-user"></span></div>
+											<p>5</p>
+										</div>
+										<div class="b-detail__main-info-characteristics-one-bottom">
+											Passangers
+										</div>
+									</div>
+									<div class="b-detail__main-info-characteristics-one">
+										<div class="b-detail__main-info-characteristics-one-top">
+											<div><span class="fa fa-fire-extinguisher"></span></div>
+											<p>10.8L</p>
+										</div>
+										<div class="b-detail__main-info-characteristics-one-bottom">
+											In City
+										</div>
+									</div>
+									<div class="b-detail__main-info-characteristics-one">
+										<div class="b-detail__main-info-characteristics-one-top">
+											<div><span class="fa fa-fire-extinguisher"></span></div>
+											<p>7.5L</p>
+										</div>
+										<div class="b-detail__main-info-characteristics-one-bottom">
+											On Highway
+										</div>
+									</div>
+								</div>
+								<div class="b-detail__main-info-text wow zoomInUp" data-wow-delay="0.5s">
+									<div class="b-detail__main-aside-about-form-links">
+										<a href="#" class="j-tab m-active s-lineDownCenter" data-to='#info1'>GENERAL INQUIRY</a>
+										<a href="#" class="j-tab" data-to='#info2'>SCHEDULE TEST DRIVE</a>
+										<a href="#" class="j-tab" data-to='#info3'>GENERAL INQUIRY</a>
+										<a href="#" class="j-tab" data-to='#info4'>SCHEDULE TEST DRIVE</a>
+									</div>
+									<div id="info1">
+										<p>Испокон веков человек искал расслабления на природе. В G-Классе он может достичь его даже в центре города. Концепция салона обеспечивает больше пространства для ног и над головой. Современное, интуитивное управление позаботится о том, чтобы Вас ничто не отвлекло от наслаждения: например, активными мультиконтурными сиденьями. Надувные воздушные камеры и кондиционирование сидений обеспечат максимальный комфорт посадки, а функция адаптации к динамике движения – превосходную боковую поддержку на поворотах. Кроме того, восемь массажных программ улучшают самочувствие и превращают каждую поездку в сплошное удовольствие.</p>
+										<p>
+											Тот, кто не боится трудностей на бездорожье, хочет задавать тон и на дороге. G-Класс покоряет конструкцией осей с точной направляющей системой подвески колес и острым рулевым управлением, а также значительно улучшенными за счет этого дорожными качествами.</p>
+										<p>Кто полагает, что G-Класс только на бездорожье чувствует себя, как рыба в воде, тот ошибается. На дороге он также сразу демонстрирует свою бескомпромиссность. Его динамика и комфорт достигают качественно нового уровня, даря наслаждение от езды, давно знакомое водителям G-Класса на бездорожье.</p>
+										<p>G-Класс демонстрирует единство противоположностей. В нем сочетаются роскошь и дух приключений, надежность и образцовая безопасность. Благородные материалы и изысканный стиль поднимают атмосферу интерьера на небывалый уровень и вселяют ощущение полной защищенности. Новая система COMAND Online с дополнительными функциями помогает водителю в каждой поездке. Комфортная подсветка салона с 64 световыми настроениями по желанию создаст индивидуальную атмосферу, а опциональная акустическая система объемного звучания Burmester® подарит незабываемое музыкальное наслаждение. </p>
+										<p>При этом автомобиль предлагает своим пассажирам значительно больше места. Сиденья нового дизайна с обивкой из тончайшей кожи наппа обеспечивают комфорт, а опциональная массажная функция дарит приятное расслабление, как в городе, так и вдали от цивилизации.</p>
+									</div>
+									<div id="info2">
+										<p>Испокон веков человек искал расслабления на природе. В G-Классе он может достичь его даже в центре города. Концепция салона обеспечивает больше пространства для ног и над головой. Современное, интуитивное управление позаботится о том, чтобы Вас ничто не отвлекло от наслаждения: например, активными мультиконтурными сиденьями. Надувные воздушные камеры и кондиционирование сидений обеспечат максимальный комфорт посадки, а функция адаптации к динамике движения – превосходную боковую поддержку на поворотах. Кроме того, восемь массажных программ улучшают самочувствие и превращают каждую поездку в сплошное удовольствие.</p>
+										<p>
+											Тот, кто не боится трудностей на бездорожье, хочет задавать тон и на дороге. G-Класс покоряет конструкцией осей с точной направляющей системой подвески колес и острым рулевым управлением, а также значительно улучшенными за счет этого дорожными качествами.</p>
+										<p>Кто полагает, что G-Класс только на бездорожье чувствует себя, как рыба в воде, тот ошибается. На дороге он также сразу демонстрирует свою бескомпромиссность. Его динамика и комфорт достигают качественно нового уровня, даря наслаждение от езды, давно знакомое водителям G-Класса на бездорожье.</p>
+										<p>G-Класс демонстрирует единство противоположностей. В нем сочетаются роскошь и дух приключений, надежность и образцовая безопасность. Благородные материалы и изысканный стиль поднимают атмосферу интерьера на небывалый уровень и вселяют ощущение полной защищенности. Новая система COMAND Online с дополнительными функциями помогает водителю в каждой поездке. Комфортная подсветка салона с 64 световыми настроениями по желанию создаст индивидуальную атмосферу, а опциональная акустическая система объемного звучания Burmester® подарит незабываемое музыкальное наслаждение. </p>
+										<p>При этом автомобиль предлагает своим пассажирам значительно больше места. Сиденья нового дизайна с обивкой из тончайшей кожи наппа обеспечивают комфорт, а опциональная массажная функция дарит приятное расслабление, как в городе, так и вдали от цивилизации.</p>
+									</div>
+									<div id="info3">
+										<p>Испокон веков человек искал расслабления на природе. В G-Классе он может достичь его даже в центре города. Концепция салона обеспечивает больше пространства для ног и над головой. Современное, интуитивное управление позаботится о том, чтобы Вас ничто не отвлекло от наслаждения: например, активными мультиконтурными сиденьями. Надувные воздушные камеры и кондиционирование сидений обеспечат максимальный комфорт посадки, а функция адаптации к динамике движения – превосходную боковую поддержку на поворотах. Кроме того, восемь массажных программ улучшают самочувствие и превращают каждую поездку в сплошное удовольствие.</p>
+										<p>
+											Тот, кто не боится трудностей на бездорожье, хочет задавать тон и на дороге. G-Класс покоряет конструкцией осей с точной направляющей системой подвески колес и острым рулевым управлением, а также значительно улучшенными за счет этого дорожными качествами.</p>
+										<p>Кто полагает, что G-Класс только на бездорожье чувствует себя, как рыба в воде, тот ошибается. На дороге он также сразу демонстрирует свою бескомпромиссность. Его динамика и комфорт достигают качественно нового уровня, даря наслаждение от езды, давно знакомое водителям G-Класса на бездорожье.</p>
+										<p>G-Класс демонстрирует единство противоположностей. В нем сочетаются роскошь и дух приключений, надежность и образцовая безопасность. Благородные материалы и изысканный стиль поднимают атмосферу интерьера на небывалый уровень и вселяют ощущение полной защищенности. Новая система COMAND Online с дополнительными функциями помогает водителю в каждой поездке. Комфортная подсветка салона с 64 световыми настроениями по желанию создаст индивидуальную атмосферу, а опциональная акустическая система объемного звучания Burmester® подарит незабываемое музыкальное наслаждение. </p>
+										<p>При этом автомобиль предлагает своим пассажирам значительно больше места. Сиденья нового дизайна с обивкой из тончайшей кожи наппа обеспечивают комфорт, а опциональная массажная функция дарит приятное расслабление, как в городе, так и вдали от цивилизации.</p>
+									</div>
+									<div id="info4">
+										<p>Испокон веков человек искал расслабления на природе. В G-Классе он может достичь его даже в центре города. Концепция салона обеспечивает больше пространства для ног и над головой. Современное, интуитивное управление позаботится о том, чтобы Вас ничто не отвлекло от наслаждения: например, активными мультиконтурными сиденьями. Надувные воздушные камеры и кондиционирование сидений обеспечат максимальный комфорт посадки, а функция адаптации к динамике движения – превосходную боковую поддержку на поворотах. Кроме того, восемь массажных программ улучшают самочувствие и превращают каждую поездку в сплошное удовольствие.</p>
+										<p>
+											Тот, кто не боится трудностей на бездорожье, хочет задавать тон и на дороге. G-Класс покоряет конструкцией осей с точной направляющей системой подвески колес и острым рулевым управлением, а также значительно улучшенными за счет этого дорожными качествами.</p>
+										<p>Кто полагает, что G-Класс только на бездорожье чувствует себя, как рыба в воде, тот ошибается. На дороге он также сразу демонстрирует свою бескомпромиссность. Его динамика и комфорт достигают качественно нового уровня, даря наслаждение от езды, давно знакомое водителям G-Класса на бездорожье.</p>
+										<p>G-Класс демонстрирует единство противоположностей. В нем сочетаются роскошь и дух приключений, надежность и образцовая безопасность. Благородные материалы и изысканный стиль поднимают атмосферу интерьера на небывалый уровень и вселяют ощущение полной защищенности. Новая система COMAND Online с дополнительными функциями помогает водителю в каждой поездке. Комфортная подсветка салона с 64 световыми настроениями по желанию создаст индивидуальную атмосферу, а опциональная акустическая система объемного звучания Burmester® подарит незабываемое музыкальное наслаждение. </p>
+										<p>При этом автомобиль предлагает своим пассажирам значительно больше места. Сиденья нового дизайна с обивкой из тончайшей кожи наппа обеспечивают комфорт, а опциональная массажная функция дарит приятное расслабление, как в городе, так и вдали от цивилизации.</p>
+									</div>
+								</div>
+								<div class="b-detail__main-info-extra wow zoomInUp" data-wow-delay="0.5s">
+									<h2 class="s-titleDet">В комп. входит</h2>
+									<div class="row">
+										<div class="col-xs-4">
+											<ul>
+												<li><span class="fa fa-check"></span>Security System</li>
+												<li><span class="fa fa-check"></span>Air Conditioning</li>
+												<li><span class="fa fa-check"></span>Alloy Wheels</li>
+												<li><span class="fa fa-check"></span>Anti-Lock Brakes (ABS)</li>
+												<li><span class="fa fa-check"></span>Anti-Theft</li>
+												<li><span class="fa fa-check"></span>Anti-Starter</li>
+											</ul>
+										</div>
+										<div class="col-xs-4">
+											<ul>
+												<li><span class="fa fa-check"></span>Dual Airbag</li>
+												<li><span class="fa fa-check"></span>Intermittent Wipers</li>
+												<li><span class="fa fa-check"></span>Keyless Entry</li>
+												<li><span class="fa fa-check"></span>Power Mirrors</li>
+												<li><span class="fa fa-check"></span>Power Seat</li>
+												<li><span class="fa fa-check"></span>Power Steering</li>
+											</ul>
+										</div>
+										<div class="col-xs-4">
+											<ul>
+												<li><span class="fa fa-check"></span>CD Player</li>
+												<li><span class="fa fa-check"></span>Driver Side Airbag</li>
+												<li><span class="fa fa-check"></span>Power Windows</li>
+												<li><span class="fa fa-check"></span>Remote Start</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<aside class="b-detail__main-aside">
+								<div class="b-detail__main-aside-desc wow zoomInUp" data-wow-delay="0.5s">
+									<h2 class="s-titleDet">Описание</h2>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Марка</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">Mercedes</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Модель</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">G class</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Пробег</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">5,000 km</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Тип кузова</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">Внедорожник</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Style/trim</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">SV Premium</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Двигатель</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">V-8 Biturbo 6,3</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Привод</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">AWD</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Transmission</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">Спортивная АКПП AMG SPEEDSHIFT TCT 9G</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Цвет машины</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">Dark Grey</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Цвет салона</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">Jet Black</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Пассажиров/Дверей</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">5 Пассажиров / 4 Дверей</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Fuel Type</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">Gasoline Fue</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">City Fuel Economy </h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">11.1L/100km</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<h4 class="b-detail__main-aside-desc-title">Hwy Fuel Economy</h4>
+										</div>
+										<div class="col-xs-6">
+											<p class="b-detail__main-aside-desc-value">16.5L/100km</p>
+										</div>
+									</div>
+								</div>
+								<div class="b-detail__main-aside-about wow zoomInUp" data-wow-delay="0.5s">
+									<h2 class="s-titleDet">Заинтересовались данным автомобием?</h2>
+									<div class="b-detail__main-aside-about-call">
+										<span class="fa fa-phone"></span>
+										<div>8 951 803 36 34</div>
+										<p>Звоните 24/7 мы рады помочь вам.</p>
+									</div>
+									<div class="b-detail__main-aside-about-seller">
+										<p>Seller Info: <span>MercedesCarDealer</span></p>
+									</div>
+									<div class="b-detail__main-aside-about-form">
+										<div class="b-detail__main-aside-about-form-links">
+											<a href="#" class="j-tab m-active s-lineDownCenter" data-to='#form1'>Задать вопрос</a>
+											<a href="#" class="j-tab" data-to='#form2'>TEST DRIVE</a>
+										</div>
+										<form id="form1" action="/" method="post">
+											<input type="text" placeholder="Ваше имя" value="" name="name" />
+											<input type="email" placeholder="Почта" value="" name="email" />
+											<input type="tel" placeholder="Номер." value="" name="name" />
+											<textarea name="text" placeholder="Сообщение"></textarea>
+											<div><input type="checkbox" name="one" value="" /><label>Send me a copy of this message</label></div>
+											<div><input type="checkbox" name="two" value="" /><label>Send me a copy of this message</label></div>
+											<button type="submit" class="btn m-btn">Отправить<span class="fa fa-angle-right"></span></button>
+										</form>
+										<form id="form2" action="/" method="post">
+											<input type="text" placeholder="Ваше имя" value="" name="name" />
+											<textarea name="text" placeholder="Сообщение"></textarea>
+											<div><input type="checkbox" name="one" value="" /><label>Send me a copy of this message</label></div>
+											<div><input type="checkbox" name="two" value="" /><label>Send me a copy of this message</label></div>
+											<button type="submit" class="btn m-btn">Отправить<span class="fa fa-angle-right"></span></button>
+										</form>
+									</div>
+								</div>
+								<div class="b-detail__main-aside-payment wow zoomInUp" data-wow-delay="0.5s">
+									<h2 class="s-titleDet">Калькулятор цены</h2>
+									<div class="b-detail__main-aside-payment-form">
+										<form action="/" method="post">
+											<input type="text" placeholder="TOTAL VALUE/LOAN AMOUNT" value="" name="name" />
+											<input type="text" placeholder="DOWN PAYMENT" value="" name="name" />
+											<div class="s-relative">
+												<select name="select" class="m-select">
+													<option value="">LOAN TERM IN MONTHS</option>
+												</select>
+												<span class="fa fa-caret-down"></span>
+											</div>
+											<input type="text" placeholder="INTEREST RATE IN %" value="" name="name" />
+											<button type="submit" class="btn m-btn">ESTIMATE PAYMENT<span class="fa fa-angle-right"></span></button>
+										</form>
+									</div>
+									<div class="b-detail__main-aside-about-call">
+										<span class="fa fa-calculator"></span>
+										<div>$250 <p>PER MONTH</p></div>
+										<p>Total Number of Payments: <span>50</span></p>
+									</div>
+								</div>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--b-detail-->
+
+		<section class="b-related m-home">
+			<div class="container">
+				<h5 class="s-titleBg wow zoomInUp" data-wow-delay="0.5s">Найти больше</h5><br />
+				<h2 class="s-title wow zoomInUp" data-wow-delay="0.5s">Машины на продаже</h2>
+				<div class="row">
+					<div class="col-md-3 col-xs-6">
+						<div class="b-auto__main-item wow zoomInLeft" data-wow-delay="0.5s">
+							<img class="img-responsive center-block"  src="media/270x150/LandRover.jpg" alt="LandRover" />
+							<div class="b-world__item-val">
+								<span class="b-world__item-val-title">Выстовлена <span>2019</span></span>
+							</div>
+							<h2><a href="detail.html">Mercedes-AMG c63 S</a></h2>
+							<div class="b-auto__main-item-info s-lineDownLeft">
+								<span class="m-price">
+									6 877 600₽
+								</span>
+								<span class="m-number">
+									<span class="fa fa-tachometer"></span>3,000 KM
+								</span>
+							</div>
+							<div class="b-featured__item-links m-auto">
+								<a href="#">Used</a>
+								<a href="#">2019</a>
+								<a href="#">Manual</a>
+								<a href="#">Black</a>
+								<a href="#">Petrol</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="b-auto__main-item wow zoomInLeft" data-wow-delay="0.5s">
+							<img class="img-responsive center-block"  src="media/270x150/nissanGT.jpg" alt="nissan" />
+							<div class="b-world__item-val">
+								<span class="b-world__item-val-title">Выставлена <span>2019</span></span>
+							</div>
+							<h2><a href="detail.html">Mercedes-AMG G63</a></h2>
+							<div class="b-auto__main-item-info s-lineDownLeft">
+								<span class="m-price">
+									14 364 000₽
+								</span>
+								<span class="m-number">
+									<span class="fa fa-tachometer"></span>3,000 KM
+								</span>
+							</div>
+							<div class="b-featured__item-links m-auto">
+								<a href="#">Used</a>
+								<a href="#">2019</a>
+								<a href="#">Manual</a>
+								<a href="#">Black</a>
+								<a href="#">Petrol</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="b-auto__main-item wow zoomInRight" data-wow-delay="0.5s">
+							<img class="img-responsive center-block"  src="media/270x150/bmw.jpg" alt="bmw" />
+							<div class="b-world__item-val">
+								<span class="b-world__item-val-title">Выставлена <span>2019</span></span>
+							</div>
+							<h2><a href="detail.html">Mercedes-AMG A 45 S</a></h2>
+							<div class="b-auto__main-item-info s-lineDownLeft">
+								<span class="m-price">
+									4 505 800₽
+								</span>
+								<span class="m-number">
+									<span class="fa fa-tachometer"></span>12,000 KM
+								</span>
+							</div>
+							<div class="b-featured__item-links m-auto">
+								<a href="#">Used</a>
+								<a href="#">2019</a>
+								<a href="#">Manual</a>
+								<a href="#">Black</a>
+								<a href="#">Petrol</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="b-auto__main-item wow zoomInRight" data-wow-delay="0.5s">
+							<img class="img-responsive center-block"  src="media/270x150/camaro.jpg" alt="camaro" />
+							<div class="b-world__item-val">
+								<span class="b-world__item-val-title">Выставлена <span>2019</span></span>
+							</div>
+							<h2><a href="detail.html">Skoda kodiaq</a></h2>
+							<div class="b-auto__main-item-info s-lineDownLeft">
+								<span class="m-price">
+									2 234 000₽
+								</span>
+								<span class="m-number">
+									<span class="fa fa-tachometer"></span>12,000 KM
+								</span>
+							</div>
+							<div class="b-featured__item-links m-auto">
+								<a href="#">Used</a>
+								<a href="#">2019</a>
+								<a href="#">Manual</a>
+								<a href="#">Black</a>
+								<a href="#">Petrol</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--"b-related-->
+
+		<section class="b-brands s-shadow">
+			<div class="container">
+				<h5 class="s-titleBg wow zoomInUp" data-wow-delay="0.5s">НАЙТИ БОЛЬШЕЕ</h5><br />
+				<h2 class="s-title wow zoomInUp" data-wow-delay="0.5s">КОМПАНИИ СОТРУДНИЧЕСТВА</h2>
+				<div class="">
+					<div class="b-brands__brand wow rotateIn" data-wow-delay="0.5s">
+						<img src="media/brands/bmwLogo.png" alt="brand" />
+					</div>
+					<div class="b-brands__brand wow rotateIn" data-wow-delay="0.5s">
+						<img src="media/brands/ferrariLogo.png" alt="brand" />
+					</div>
+					<div class="b-brands__brand wow rotateIn" data-wow-delay="0.5s">
+						<img src="media/brands/volvo.png" alt="brand" />
+					</div>
+					<div class="b-brands__brand wow rotateIn" data-wow-delay="0.5s">
+						<img src="media/brands/mercLogo.png" alt="brand" />
+					</div>
+					<div class="b-brands__brand wow rotateIn" data-wow-delay="0.5s">
+						<img src="media/brands/audiLogo.png" alt="brand" />
+					</div>
+					<div class="b-brands__brand wow rotateIn" data-wow-delay="0.5s">
+						<img src="media/brands/honda.png" alt="brand" />
+					</div>
+					<div class="b-brands__brand wow rotateIn" data-wow-delay="0.5s">
+						<img src="media/brands/peugeot.png" alt="brand" />
+					</div>
+				</div>
+			</div>
+		</section><!--b-brands-->
+
+		<div class="b-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9 col-md-offset-3 col-xs-6 col-xs-offset-6">
+						<ul class="b-features__items">
+							<li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100">Низкая цена</li>
+							<li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100">Лучшие манины</li>
+							<li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100">Проверка качества</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!--b-features-->
+
+		<div class="b-info">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-6">
+						<aside class="b-info__aside wow zoomInLeft" data-wow-delay="0.3s">
+							<article class="b-info__aside-article">
+								<h3>Рабочие часы</h3>
+								<div class="b-info__aside-article-item">
+									<h6>Депортамент продаж</h6>
+									<p>Рабочие: 8:00 - 19:00<br />
+										Суббота закрыто</p>
+								</div>
+								<div class="b-info__aside-article-item">
+									<h6>Сервис депортамент</h6>
+									<p>Рабочие: 8:00 - 19:00<br />
+										Суббота закрыто</p>
+								</div>
+							</article>
+							<article class="b-info__aside-article">
+								<h3>О компании</h3>
+								<p>Авто диллер «RealAuto» является продавцом и оффицальным диллером тысячи компаний по праизводсту машин. Мы уже более 10 лет работаем на рынке автомобилестроителей и являемся известной компанией, ассоциирующейся с качеством и техническим совершенством продукции</p>
+							</article>
+							<a href="about.html" class="btn m-btn">Подробнее<span class="fa fa-angle-right"></span></a>
+						</aside>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="b-info__latest">
+							<h3>Лучшие предложения</h3>
+							<div class="b-info__latest-article wow zoomInUp" data-wow-delay="0.3s">
+								<div class="b-info__latest-article-photo m-audi"></div>
+								<div class="b-info__latest-article-info">
+									<h6><a href="detail.html">MERCEDES-AMG GLS 63 S</a></h6>
+									<p><span class="fa fa-tachometer"></span> 1,000 KM</p>
+								</div>
+							</div>
+							<div class="b-info__latest-article wow zoomInUp" data-wow-delay="0.3s">
+								<div class="b-info__latest-article-photo m-audiSpyder"></div>
+								<div class="b-info__latest-article-info">
+									<h6><a href="#">MERCEDES-Maybach S 650 </a></h6>
+									<p><span class="fa fa-tachometer"></span> 150 KM</p>
+								</div>
+							</div>
+							<div class="b-info__latest-article wow zoomInUp" data-wow-delay="0.3s">
+								<div class="b-info__latest-article-photo m-aston"></div>
+								<div class="b-info__latest-article-info">
+									<h6><a href="#">MERCEDES-AMG GT 63 S</a></h6>
+									<p><span class="fa fa-tachometer"></span> 3,000 KM</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="b-info__twitter">
+							<h3>из twittera</h3>
+							<div class="b-info__twitter-article wow zoomInUp" data-wow-delay="0.3s">
+								<div class="b-info__twitter-article-icon"><span class="fa fa-twitter"></span></div>
+								<div class="b-info__twitter-article-content">
+									<p>Duis scelerisque aliquet ante donec libero pede porttitor dacu</p>
+									<span>20 minutes ago</span>
+								</div>
+							</div>
+							<div class="b-info__twitter-article wow zoomInUp" data-wow-delay="0.3s">
+								<div class="b-info__twitter-article-icon"><span class="fa fa-twitter"></span></div>
+								<div class="b-info__twitter-article-content">
+									<p>Duis scelerisque aliquet ante donec libero pede porttitor dacu</p>
+									<span>20 minutes ago</span>
+								</div>
+							</div>
+							<div class="b-info__twitter-article wow zoomInUp" data-wow-delay="0.3s">
+								<div class="b-info__twitter-article-icon"><span class="fa fa-twitter"></span></div>
+								<div class="b-info__twitter-article-content">
+									<p>Duis scelerisque aliquet ante donec libero pede porttitor dacu</p>
+									<span>20 minutes ago</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<address class="b-info__contacts wow zoomInUp" data-wow-delay="0.3s">
+							<p>Связаться</p>
+							<div class="b-info__contacts-item">
+								<span class="fa fa-map-marker"></span>
+								<em>Ак Павлова 9, 3, 36.</em>
+							</div>
+							<div class="b-info__contacts-item">
+								<span class="fa fa-phone"></span>
+								<em>Phone: 8 951 803-36-34</em>
+							</div>
+							<div class="b-info__contacts-item">
+								<span class="fa fa-fax"></span>
+								<em>FAX:  8 951 803-36-34</em>
+							</div>
+							<div class="b-info__contacts-item">
+								<span class="fa fa-envelope"></span>
+								<em>Email:  shaynurov22@mail.ru</em>
+							</div>
+						</address>
+
+						</address>
+					</div>
+				</div>
+			</div>
+		</div><!--b-info-->
+
+		<footer class="b-footer">
+			<a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<div class="b-footer__company wow fadeInLeft" data-wow-delay="0.3s">
+							<div class="b-nav__logo">
+								<h3><a href="home.html">Real<span>Auto</span></a></h3>
+							</div>
+							<p>&copy; 2020 Designed by Renifit &amp; Powered by RealAuto.</p>
+						</div>
+					</div>
+					<div class="col-xs-8">
+						<div class="b-footer__content wow fadeInRight" data-wow-delay="0.3s">
+							<div class="b-footer__content-social">
+								<a href="#"><span class="fa fa-facebook-square"></span></a>
+								<a href="#"><span class="fa fa-twitter-square"></span></a>
+								<a href="#"><span class="fa fa-google-plus-square"></span></a>
+								<a href="#"><span class="fa fa-instagram"></span></a>
+								<a href="#"><span class="fa fa-youtube-square"></span></a>
+								<a href="#"><span class="fa fa-skype"></span></a>
+							</div>
+							<nav class="b-footer__content-nav">
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Pages</a></li>
+									<li><a href="#">Inventory</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Shop</a></li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer><!--b-footer-->
+		<!--Main-->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+
+		<script src="assets/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<script src="js/classie.js"></script>
+
+		<!--Switcher-->
+		<script src="assets/switcher/js/switcher.js"></script>
+		<!--Owl Carousel-->
+		<script src="assets/owl-carousel/owl.carousel.min.js"></script>
+		<!--bxSlider-->
+		<script src="assets/bxslider/jquery.bxslider.js"></script>
+		<!-- jQuery UI Slider -->
+		<script src="assets/slider/jquery.ui-slider.js"></script>
+
+		<!--Theme-->
+		<script src="js/jquery.smooth-scroll.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/theme.js"></script>
+	</body>
+</html>
